@@ -1,4 +1,7 @@
-cask "togglemute" do
+# typed: true
+# frozen_string_literal: true
+
+cask "accord" do
   version "1.5"
   sha256 "f6c6c5627d2a1118088184e29eb1df9fa40afac0b5dab060196182fd002cad7d"
 
@@ -6,6 +9,7 @@ cask "togglemute" do
   name "togglemute"
   desc "Touch Bar App to mute/unmute the microphone"
   homepage "https://github.com/satrik/toggleMute"
+
   license "MIT"
 
   livecheck do
@@ -17,5 +21,4 @@ cask "togglemute" do
   depends_on macos: ">= :big_sur"
 
   app "toggleMute.app"
-
 end
