@@ -1,7 +1,7 @@
 # typed: true
 # frozen_string_literal: true
 
-cask "accord" do
+cask "togglemute" do
   version "1.5"
   sha256 "f6c6c5627d2a1118088184e29eb1df9fa40afac0b5dab060196182fd002cad7d"
 
